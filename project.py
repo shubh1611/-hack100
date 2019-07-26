@@ -78,5 +78,6 @@ def Q():
 
 def main():
     print("inside project main ")
+    A()
 if __name__ == '__main__':
     main()
