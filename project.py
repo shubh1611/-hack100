@@ -5,10 +5,12 @@ def A():
 
 def B():
     print("entering inside B")
+    print("calling API C")
     C()
 
 def C():
     print("entering inside C")
+    print("calling API D")
     D()
 
 def D():
