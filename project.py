@@ -12,6 +12,7 @@ def A():
 def B():
     print("entering inside B")
     print("calling API C")
+    print("testing change in B")
     #line3
     #line4
     #line5
@@ -99,6 +100,7 @@ def J():
 
 def K():
     print("entering inside K")
+    print("testing change in K")
     #line3
     #line4
     #line5
@@ -187,16 +189,6 @@ def S():
     T()
 def T():
     print("entering inside T")
-    #line3
-    #line4
-    #line5
-    #line6
-    #line7
-    #line8
-    Q()
-
-def Q():
-    print("entering inside Q")
     #line3
     #line4
     #line5
