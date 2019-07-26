@@ -56,9 +56,11 @@ def O():
 def P():
     print("entering inside D")
     Q()
+
 def Q():
     print("entering inside Q")
     R()
+
 def R():
     print("entering inside R")
     S()
@@ -68,6 +70,7 @@ def S():
 def T():
     print("entering inside T")
     Q()
+
 def Q():
     print("entering inside Q")
 
