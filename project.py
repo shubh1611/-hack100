@@ -1,5 +1,6 @@
 def A():
     print("entering inside A")
+    print("calling API B")
     B()
 
 def B():
