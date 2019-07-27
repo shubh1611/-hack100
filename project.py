@@ -1,7 +1,7 @@
 new_global = 0
-gloval_var2 = 0
+gloval_var2 = 1
 def A():
-    print("entering inside A          ")
+    print("entering inside A            ")
     print("calling API B from A")
     new_global = 0
     #line2
