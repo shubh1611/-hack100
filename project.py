@@ -1,6 +1,8 @@
+new_global = 0
 def A():
     print("entering inside A   ")
     print("calling API B from A")
+    new_global = 0
     #line2
     #line3
     #line4
@@ -44,6 +46,7 @@ def D():
 
 def E():
     print("entering inside E")
+    new_global = 0
     #line3
     #line4
     #line5
