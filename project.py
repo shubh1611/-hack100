@@ -1,4 +1,4 @@
-new_global = 0
+new_global = 1
 def A():
     print("entering inside A   ")
     print("calling API B from A")
