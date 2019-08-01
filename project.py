@@ -1,7 +1,7 @@
 new_global = 0
 gloval_var2 = 1
 def A():
-    print("entering inside A ")
+    print("entering inside A    ")
     print("calling API B from A")
     new_global = 0
     #line2
@@ -37,7 +37,7 @@ def C():
     D()
 
 def D():
-    print("entering inside D")
+    print("entering inside D  ")
     #line3
     #line4
     #line5
@@ -57,7 +57,7 @@ def E():
     F()
 
 def F():
-    print("entering inside F")
+    print("entering inside F ")
     #line3
     #line4
     #line5
